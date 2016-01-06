@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>For</title>
+</head>
+
+<body>
+
+	Click para ver o resultado
+
+	<button type="button" onclick="mFuncao();">clik aki</button>
+
+	<p id="demo"></p>
+
+<script>
+	function mFuncao() {
+		var text = "";
+	    for (var i = 0; i < 5; i++) {
+	    	text += "O numero eh: " + i + "</br>";
+	    }
+
+	    document.getElementById("demo").innerHTML = text;
+	}
+   
+	
+</script>
+
+
+</body>
+</html>
