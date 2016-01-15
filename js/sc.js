@@ -25,3 +25,4 @@ function cal() {
 	formulario.imc.value = IMC.toFixed(2);
 
 }
+
